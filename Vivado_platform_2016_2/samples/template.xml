@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:Manifest xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:manifest="http://www.xilinx.com/manifest">
+    <template location="arraycopy" name="Array copy" description="Simple test application">
+        <supports>
+            <and>
+                <or>
+                    <os name="Linux"/>
+                </or>
+            </and>
+        </supports>
+    </template>
+    <template location="arraycopy_sa" name="Array copy" description="Simple test application">
+        <supports>
+            <and>
+                <or>
+                    <os name="Standalone"/>
+                </or>
+            </and>
+        </supports>
+    </template>
+	<template location="videodemo_sobel" name="Sobel Filter Video I/O demo" description="Demo that runs a sobel filter on the HDMI input stream and forwards it onto the VGA output. Controlled over UART at 115200 baud.">
+        <supports>
+            <and>
+                <or>
+                    <os name="Standalone"/>
+                </or>
+            </and>
+        </supports>
+    </template>
+</manifest:Manifest>

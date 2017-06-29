@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdsproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sdsproject="http://www.xilinx.com/sdsproject" name="HWSWfinal" platform="G:\zybo_hdmi_in" os="Standalone" ConfigType="Profiling">
+  <options insertapm="false" genbitstream="true" gensdcard="true" dmclkid="3" md5SumElf="c6eb63404bb0e94596b2f95264280fcf" enableHwSwTrace="false" traceApplication="false">
+    <accelerator name="HardwareSobelSepia" filepath="src/plugin/addons/sepia.cpp" clkid="3"/>
+    <accelerator name="HardwareSobelGray" filepath="src/plugin/addons/filter2.cpp" clkid="3"/>
+  </options>
+</sdsproject:Project>

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 08 10:53:51 2016
+# Process ID: 8412
+# Current directory: G:/example/zybo_hdmi_in/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4896 G:\example\zybo_hdmi_in\vivado\zybo_hdmi_in.xpr
+# Log file: G:/example/zybo_hdmi_in/vivado/vivado.log
+# Journal file: G:/example/zybo_hdmi_in/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.xpr
+update_compile_order -fileset sources_1
+open_bd_design {G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/zybo_hdmi_in.bd}
+report_ip_status -name ip_status 
+export_ip_user_files -of_objects [get_ips  {zybo_hdmi_in_axi_vdma_0_0 zybo_hdmi_in_proc_sys_reset_1_0 zybo_hdmi_in_proc_sys_reset_hdmi_in_0 zybo_hdmi_in_axi_gpio_video_0 zybo_hdmi_in_proc_sys_reset_3_0 zybo_hdmi_in_axi_mem_intercon_0 zybo_hdmi_in_v_vid_in_axi4s_0_0 zybo_hdmi_in_processing_system7_0_axi_periph_0 zybo_hdmi_in_axi_gpio_sw_0 zybo_hdmi_in_v_tc_1_0 zybo_hdmi_in_v_axi4s_vid_out_0_0 zybo_hdmi_in_proc_sys_reset_0_0 zybo_hdmi_in_v_tc_0_0 zybo_hdmi_in_axi_gpio_led_0}] -no_script -reset -quiet
+upgrade_ip [get_ips  {zybo_hdmi_in_axi_vdma_0_0 zybo_hdmi_in_proc_sys_reset_1_0 zybo_hdmi_in_proc_sys_reset_hdmi_in_0 zybo_hdmi_in_axi_gpio_video_0 zybo_hdmi_in_proc_sys_reset_3_0 zybo_hdmi_in_axi_mem_intercon_0 zybo_hdmi_in_v_vid_in_axi4s_0_0 zybo_hdmi_in_processing_system7_0_axi_periph_0 zybo_hdmi_in_axi_gpio_sw_0 zybo_hdmi_in_v_tc_1_0 zybo_hdmi_in_v_axi4s_vid_out_0_0 zybo_hdmi_in_proc_sys_reset_0_0 zybo_hdmi_in_v_tc_0_0 zybo_hdmi_in_axi_gpio_led_0}] -log ip_upgrade.log
+report_ip_status -name ip_status 
+make_wrapper -files [get_files G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/zybo_hdmi_in.bd] -top
+generate_target all [get_files  G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/zybo_hdmi_in.bd]
+export_ip_user_files -of_objects [get_files G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/zybo_hdmi_in.bd] -no_script -force -quiet
+export_simulation -of_objects [get_files G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.srcs/sources_1/bd/zybo_hdmi_in/zybo_hdmi_in.bd] -directory G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.ip_user_files/sim_scripts -ip_user_files_dir G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.ip_user_files -ipstatic_source_dir G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.ip_user_files/ipstatic -force -quiet
+file mkdir G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.sdk
+write_hwdef -force  -file G:/example/zybo_hdmi_in/vivado/zybo_hdmi_in.sdk/zybo_hdmi_in_wrapper.hdf

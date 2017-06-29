@@ -1,0 +1,289 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_v_vid_in_axi4s_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_v_vid_in_axi4s_0_0 (xilinx.com:ip:v_vid_in_axi4s:4.0) from (Rev. 1) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_v_tc_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_v_tc_1_0 (xilinx.com:ip:v_tc:6.1) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_v_tc_0_0 (xilinx.com:ip:v_tc:6.1) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 1) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_proc_sys_reset_hdmi_in_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_proc_sys_reset_hdmi_in_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_proc_sys_reset_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_proc_sys_reset_3_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_proc_sys_reset_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_proc_sys_reset_1_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_proc_sys_reset_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.2) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_axi_gpio_video_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_axi_gpio_video_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 9) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_axi_gpio_sw_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_axi_gpio_sw_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 9) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Dec 08 10:55:00 2016
+| Host         : Raul-MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_axi_gpio_led_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zybo_hdmi_in_axi_gpio_led_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 9) to (Rev. 11)
+

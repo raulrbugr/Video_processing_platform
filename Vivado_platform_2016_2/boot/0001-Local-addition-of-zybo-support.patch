@@ -1,0 +1,100 @@
+From 0e4e2e505e884a0a3d23bce9a65b25c8bea7db07 Mon Sep 17 00:00:00 2001
+From: SDSoC Support <sdsoc_support@xilinx.com>
+Date: Wed, 7 Jan 2015 17:15:06 -0800
+Subject: [PATCH] Local addition of zybo support
+
+---
+ arch/arm/dts/zynq-zybo.dts  | 31 +++++++++++++++++++++++++++++++
+ boards.cfg                  |  1 +
+ include/configs/zynq_zybo.h | 31 +++++++++++++++++++++++++++++++
+ 3 files changed, 63 insertions(+)
+ create mode 100644 arch/arm/dts/zynq-zybo.dts
+ create mode 100644 include/configs/zynq_zybo.h
+
+diff --git a/arch/arm/dts/zynq-zybo.dts b/arch/arm/dts/zynq-zybo.dts
+new file mode 100644
+index 0000000..491064d
+--- /dev/null
++++ b/arch/arm/dts/zynq-zybo.dts
+@@ -0,0 +1,29 @@
++/*
++ * Xilinx ZYBO board DTS
++ *
++ * Copyright (C) 2013 Xilinx, Inc.
++ *
++ * SPDX-License-Identifier:	GPL-2.0+
++ */
++/dts-v1/;
++#include "zynq-7000.dtsi"
++
++/ {
++	model = "Zynq ZYBO Board";
++	compatible = "xlnx,zynq-zybo", "xlnx,zynq-7000";
++
++	aliases {
++		serial0 = &uart1;
++	};
++
++	memory {
++		device_type = "memory";
++		reg = <0 0x20000000>;
++	};
++};
++&slcr {
++        clkc@100 {
++                fclk-enable = <0xf>;
++		ps-clk-frequency=<50000000>;
++        };
++};
+diff --git a/boards.cfg b/boards.cfg
+index 7beb3c8..a7243c3 100644
+--- a/boards.cfg
++++ b/boards.cfg
+@@ -389,6 +389,7 @@ Active  arm         armv7          zynq        xilinx          zynq
+ Active  arm         armv7          zynq        xilinx          zynq                zynq_zc770_XM012                     zynq_zc770:ZC770_XM012                                                                                                             Michal Simek <monstr@monstr.eu>:Jagannadha Sutradharudu Teki <jaganna@xilinx.com>
+ Active  arm         armv7          zynq        xilinx          zynq                zynq_zc770_XM013                     zynq_zc770:ZC770_XM013                                                                                                             Michal Simek <monstr@monstr.eu>:Jagannadha Sutradharudu Teki <jaganna@xilinx.com>
+ Active  arm         armv7          zynq        xilinx          zynq                zynq_zed                             -                                                                                                                                  Michal Simek <monstr@monstr.eu>:Jagannadha Sutradharudu Teki <jaganna@xilinx.com>
++Active  arm         armv7          zynq        xilinx          zynq                zynq_zybo                            -                                                                                                                                  Michal Simek <monstr@monstr.eu>:Jagannadha Sutradharudu Teki <jaganna@xilinx.com>
+ Active  arm         armv7          zynq        xilinx          zynq                zynq_afx_nor                         zynq_afx:AFX_NOR                                                                                                                   Michal Simek <michal.simek@xilinx.com>
+ Active  arm         armv7          zynq        xilinx          zynq                zynq_afx_qspi                        zynq_afx:AFX_QSPI                                                                                                                  Michal Simek <michal.simek@xilinx.com>
+ Active  arm         armv7          zynq        xilinx          zynq                zynq_afx_nand                        zynq_afx:AFX_NAND                                                                                                                  Michal Simek <michal.simek@xilinx.com>
+diff --git a/include/configs/zynq_zybo.h b/include/configs/zynq_zybo.h
+new file mode 100644
+index 0000000..8cd7c2f
+--- /dev/null
++++ b/include/configs/zynq_zybo.h
+@@ -0,0 +1,31 @@
++/*
++ * (C) Copyright 2013 Xilinx, Inc.
++ *
++ * Configuration for Zynq Evaluation and Development Board - Zybo
++ * See zynq-common.h for Zynq common configs
++ *
++ * SPDX-License-Identifier:	GPL-2.0+
++ */
++
++#ifndef __CONFIG_ZYNQ_ZYBO_H
++#define __CONFIG_ZYNQ_ZYBO_H
++
++#define CONFIG_SYS_SDRAM_SIZE		(512 * 1024 * 1024)
++
++#define CONFIG_ZYNQ_SERIAL_UART1
++#define CONFIG_ZYNQ_GEM0
++#define CONFIG_ZYNQ_GEM_PHY_ADDR0	0
++
++#define CONFIG_SYS_NO_FLASH
++
++#define CONFIG_ZYNQ_USB
++#define CONFIG_ZYNQ_SDHCI0
++#define CONFIG_ZYNQ_QSPI
++
++#define CONFIG_ZYNQ_BOOT_FREEBSD
++#define CONFIG_DEFAULT_DEVICE_TREE	zynq-zybo
++
++#include <configs/zynq-common.h>
++#define CONFIG_ZYNQ_PS_CLK_FREQ 50000000UL
++
++#endif /* __CONFIG_ZYNQ_ZYBO_H */
+-- 
+2.2.2
+

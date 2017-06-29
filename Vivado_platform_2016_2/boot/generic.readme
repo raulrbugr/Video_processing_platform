@@ -1,0 +1,9 @@
+-= SD card boot image =-
+
+Platform: <platform>
+Application: <elf>
+
+1. Copy the contents of this directory to a microSD card
+2. Set boot mode jumper (JP5) to SD
+3. Insert microSD card
+4. Select power source with JP7 and turn board on

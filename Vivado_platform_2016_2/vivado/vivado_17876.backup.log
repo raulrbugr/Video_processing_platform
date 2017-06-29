@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 08 10:52:14 2016
+# Process ID: 17876
+# Current directory: G:/PlataformaTutorial/zybo_hdmi_in/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5144 G:\PlataformaTutorial\zybo_hdmi_in\vivado\zybo_hdmi_in.xpr
+# Log file: G:/PlataformaTutorial/zybo_hdmi_in/vivado/vivado.log
+# Journal file: G:/PlataformaTutorial/zybo_hdmi_in/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/PlataformaTutorial/zybo_hdmi_in/vivado/zybo_hdmi_in.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'G:/../../../../vivado-boards/new/board_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/PlataformaTutorial/zybo_hdmi_in/vivado/zybo_hdmi_in.ipdefs/repo_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'zybo_hdmi_in.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+zybo_hdmi_in_proc_sys_reset_3_0
+zybo_hdmi_in_axi_vdma_0_0
+zybo_hdmi_in_auto_pc_1
+zybo_hdmi_in_axi_gpio_video_0
+zybo_hdmi_in_axi_gpio_led_0
+zybo_hdmi_in_axi_gpio_sw_0
+zybo_hdmi_in_xbar_0
+zybo_hdmi_in_proc_sys_reset_0_0
+zybo_hdmi_in_proc_sys_reset_1_0
+zybo_hdmi_in_proc_sys_reset_hdmi_in_0
+zybo_hdmi_in_xbar_1
+zybo_hdmi_in_v_axi4s_vid_out_0_0
+zybo_hdmi_in_s01_regslice_0
+zybo_hdmi_in_v_tc_0_0
+zybo_hdmi_in_s00_regslice_0
+zybo_hdmi_in_v_tc_1_0
+zybo_hdmi_in_v_vid_in_axi4s_0_0
+zybo_hdmi_in_m00_regslice_0
+zybo_hdmi_in_auto_pc_0
+
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 884.266 ; gain = 205.809
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 08 10:52:57 2016...

@@ -1,0 +1,41 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Tue Feb 23 19:30:27 2016
+| Host         : WK73 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zybo_hdmi_in_rgb2vga_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of zybo_hdmi_in_rgb2vga_0_1 (digilentinc.com:ip:rgb2vga:1.0) from (Rev. 3) to (Rev. 5)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+WARNING: Parameter 'VID_IN_DATA_WIDTH' is no longer present on the upgraded IP 'zybo_hdmi_in_rgb2vga_0_1', and cannot be set to '24'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv digilentinc.com:ip:rgb2vga:1.0 -user_name zybo_hdmi_in_rgb2vga_0_1
+set_property -dict "\
+  CONFIG.Component_Name zybo_hdmi_in_rgb2vga_0_1 \
+  CONFIG.kBlueDepth 5 \
+  CONFIG.kGreenDepth 6 \
+  CONFIG.kRedDepth 5 " [get_ips zybo_hdmi_in_rgb2vga_0_1]
+
+

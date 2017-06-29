@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Dec 08 11:03:34 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="812047695f1240f48ba9ad7d37bdaec7" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Flow_RuntimeOptimized" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Flow_RuntimeOptimized" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CreateTopHDL" value="1" type="JavaHandler"/>
+<property name="ManageCompositeTargets" value="1" type="JavaHandler"/>
+<property name="NewExportHardware" value="1" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="1" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="1" type="JavaHandler"/>
+<property name="ReportIPStatus" value="2" type="JavaHandler"/>
+<property name="UpgradeIP" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_CREATE_TOP_HDL, Create HDL Wrapper..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EXPORT_HARDWARE, Export Hardware..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, Generate Output Products..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, zybo_hdmi_in_wrapper - STRUCTURE (zybo_hdmi_in_wrapper.vhd" value="16" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Open Block Design], 7, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, Upgrade Selected" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FLOW, Flow" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, Open Recent IP Location" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, Generate" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTab_REPORT_IP_STATUS, Report IP Status" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseReportTab_RERUN, Rerun" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="107" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="96" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

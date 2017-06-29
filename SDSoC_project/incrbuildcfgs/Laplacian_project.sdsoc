@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdsproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sdsproject="http://www.xilinx.com/sdsproject" name="HWSWfinal" platform="G:\zybo_hdmi_in" os="Standalone" ConfigType="SDDebug">
+  <options insertapm="false" genbitstream="true" gensdcard="true" dmclkid="3" md5SumElf="4c101bfe5af9e19b1fd7a8dacf834a8a" enableHwSwTrace="false" traceApplication="false">
+    <accelerator name="HardwareSobelLaplacian" filepath="src/plugin/addons/laplacian.cpp" clkid="3"/>
+  </options>
+</sdsproject:Project>

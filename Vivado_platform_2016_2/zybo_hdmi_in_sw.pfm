@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:repository xd:vendor="digilentinc.com" xd:library="xd" xd:name="zybo_hdmi_in" xd:version="1.0" xmlns:xd="http://www.xilinx.com/xd" >
+
+    <xd:description>Video capable platform for the Digilent ZYBO system board with support for HDMI input, VGA output, and GPIO (leds/buttons/switches). More on the ZYBO found here: http://store.digilentinc.com/zybo-zynq-7000-arm-fpga-soc-trainer-board/ </xd:description>
+
+    <xd:libraryFiles
+      xd:os="linux"
+      xd:libName="zybo_led"
+      xd:libDir="arm-xilinx-linux-gnueabi/lib"
+      xd:includeDir="arm-xilinx-linux-gnueabi/include"
+    />
+
+    <xd:bootFiles
+      xd:os="linux"
+      xd:bif="boot/linux.bif"
+      xd:readme="boot/generic.readme"
+      xd:devicetree="boot/devicetree.dtb"
+      xd:linuxImage="boot/uImage"
+      xd:ramdisk="boot/uramdisk.image.gz"
+    />
+	
+    <xd:libraryFiles
+      xd:os="standalone"
+      xd:includeDir="arm-xilinx-eabi/include"
+      xd:ldscript="arm-xilinx-eabi/lscript.ld"
+    />
+
+    <xd:bootFiles
+      xd:os="standalone"
+      xd:bif="boot/standalone.bif"
+      xd:readme="boot/generic.readme"
+    />
+	
+	<xd:hardware
+      xd:system="prebuilt"
+      xd:bitstream="hardware/prebuilt/bitstream.bit"
+      xd:export="hardware/prebuilt/export"
+      xd:swcf="hardware/prebuilt/swcf"
+      xd:hwcf="hardware/prebuilt/hwcf"
+    />
+
+</xd:repository>
+

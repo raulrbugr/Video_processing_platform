@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<cf:model cf:partition="0" cf:prefix="_p0_" cf:name="top" xd:type="design" xmlns:xd="http://www.xilinx.com/xd" xmlns:cf="http://www.xilinx.com/connections">
+  <cf:comp cf:name="zybo_hdmi_in" xd:componentRef="zybo_hdmi_in" xd:clockId="1"/>
+</cf:model>

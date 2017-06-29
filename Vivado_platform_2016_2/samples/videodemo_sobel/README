@@ -1,0 +1,12 @@
+
+To build this project, add the DemoSobelFrameHw function as a Hardware function.
+Set the Clock frequency for the function to 116.67MHz and the Data Motion Network
+clock frequency to 116.67MHz. You can then build the project.
+
+To use the project connect a video source to the HDMI I/O connector of the ZYBO,
+a monitor to the VGA connector, and your computer to the USB PROG/UART connector.
+Run the project on the ZYBO, and then connect to the ZYBO's COM port in a Terminal
+program at Baud 115200. Further instructions are provided on the terminal.
+
+*Note - Output on the VGA monitor will be cropped or padded if the output resolution
+		does not match the HDMI input resolution.

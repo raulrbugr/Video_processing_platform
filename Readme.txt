@@ -16,4 +16,8 @@ This platform have a good performance with 38,80 FPS executing the video process
 
 In the project, the clock in the FPGA and in the hardware function must be in 116.67MHz.
 
+Youtube video:
+
+https://youtu.be/CAwPBImBVAA
+
 Enjoy!
